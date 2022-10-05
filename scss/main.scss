@@ -1,0 +1,114 @@
+@import "home";
+@import "menu";
+@import "about";
+@import "projects";
+@import "contact";
+@import "config";
+@import "skills";
+
+
+body {
+    overflow-x: hidden;
+    color: $color-text;
+    background-color: $color-main-background;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.main-wrapper {
+    height: 100%;
+    padding: 0 6rem;
+
+    @include mobile {
+        padding: 0;
+    }
+
+    @include tablet {
+        padding: 0 3rem;
+    }
+}
+
+
+
+
+.section-heading {
+    @include font($font-family-one, 2.8rem, 700);
+    padding-left: 1.4rem;
+    color: $color-text;
+    text-transform: capitalize;
+
+    @include mobile {
+        @include font($font-family-one, 1.4rem, 700);
+    }
+
+    @include tablet {
+        @include font($font-family-one, 2rem, 400);
+    }
+
+    @include laptop {
+        @include font($font-family-one, 2.4rem, 400);
+    }
+
+    @include desktop {
+        padding-left: 4rem;
+        padding-bottom: 3rem;
+
+    }
+}
+
+
+
+.heading-two {
+    @include font($font-family-one, 3.2rem, 600);
+    padding-left: 1.4rem;
+    padding-top: 1rem;
+    color: $color-text;
+    text-transform: capitalize;
+
+    @include mobile {
+        @include font($font-family-one, 1.6rem, 600);
+
+    }
+
+    @include tablet {
+        @include font($font-family-one, 2.2rem, 600);
+
+    }
+
+    @include laptop {
+        @include font($font-family-one, 2.4rem, 600);
+
+    }
+
+    @include desktop {
+        padding-left: 4rem;
+        padding-top: 1rem;
+    }
+
+}
+
+
+
+.paragraph-text {
+    @include font($font-family-one, 2.2rem, 400);
+    color: $color-text;
+    line-height: 1.6;
+    text-align: left;
+
+    @include mobile {
+
+        @include font($font-family-one, 1.2rem, 400);
+    }
+
+    @include tablet {
+
+        @include font($font-family-one, 1.8rem, 400);
+    }
+
+    @include laptop {
+
+        @include font($font-family-one, 2rem, 400);
+    }
+
+}

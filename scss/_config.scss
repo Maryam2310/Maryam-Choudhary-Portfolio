@@ -1,0 +1,70 @@
+//variables
+
+$line-height: 4px;
+$line-space: 6px;
+$menu-icon-height: (
+  3 * $line-height) + (2 * $line-space
+);
+$y-off-set: $line-height + $line-space;
+$cubic-bezier-in: cubic-bezier(0.3, 1, 0.7, 1);
+$font-family-one: 'Arima', cursive;
+$border-radius: 20px;
+$color-text: #122620;
+$color-main-background: #F4EBD0;
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+@mixin transition-ease {
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+
+@mixin font ($fontFamily, $fontSize, $fontWeight) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+
+}
+
+
+
+@mixin mobile {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    @content;
+  }
+}
+
+
+
+@mixin desktop {
+  @media screen and (min-width: 1025px) {
+    @content;
+  }
+}

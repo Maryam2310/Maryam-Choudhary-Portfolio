@@ -1,0 +1,328 @@
+@import "config";
+
+
+.navigation-menu {
+    @include transition-ease;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 400px;
+    border-bottom-left-radius: 400px;
+    z-index: 10;
+    background-color: $color-main-background;
+
+
+    &.active {
+        width: 400px;
+    }
+
+    @include mobile {
+        height: 250px;
+
+        &.active {
+            width: 250px;
+        }
+
+
+    }
+
+}
+
+
+/* navbar links styling start */
+
+.nav {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 400px;
+
+    .navbar-links {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 400px;
+
+        ul {
+            @include transition-ease;
+            margin-left: 8.5rem;
+            opacity: 0;
+
+            &.active {
+                opacity: 1;
+            }
+
+
+            li {
+
+                a {
+                    @include transition-ease;
+                    @include font($font-family-one, 2.5rem, 700);
+                    position: relative;
+                    display: block;
+                    margin: 1rem;
+                    color: $color-text;
+                    background: none;
+                    text-align: center;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                    border: none;
+
+
+                    @include mobile {
+
+                        @include font($font-family-one, 1.6rem, 700);
+
+
+                    }
+
+                    @include tablet {
+
+                        @include font($font-family-one, 2rem, 700);
+
+
+                    }
+
+
+                    &:focus,
+                    &:hover {
+                        color: $color-text;
+                    }
+
+                    &:focus:after,
+                    &:hover:after {
+                        width: 100%;
+                        left: 0%;
+                    }
+
+                    &:after {
+                        @include transition-ease;
+                        content: "";
+                        position: absolute;
+                        left: 50%;
+                        bottom: -2px;
+                        width: 0%;
+                        height: 2px;
+                        pointer-events: none;
+                        background-color: #CCCCFF;
+                    }
+
+
+                }
+
+
+
+
+
+            }
+        }
+    }
+}
+
+
+/* navbar links styling end */
+
+
+/* navbar icon styling start */
+
+.toggle-menu-icon {
+    position: fixed;
+    top: 1.5rem;
+    right: 2rem;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #CCCCFF;
+
+    @include mobile {
+        top: 1.5rem;
+        right: 1rem;
+        width: 45px;
+        height: 45px;
+
+    }
+
+    @include tablet {
+        top: 1.5rem;
+        right: 1rem;
+        width: 55px;
+        height: 55px;
+    }
+}
+
+.icon {
+    position: absolute;
+    top: 1.9rem;
+    left: 1.1rem;
+    width: 35px;
+    height: $menu-icon-height;
+    margin: 0 1rem 0 0.4rem;
+    cursor: pointer;
+    z-index: 4;
+
+    @include mobile {
+        top: 1rem;
+        left: 0.6rem;
+        width: 25px;
+    }
+
+    @include tablet {
+        top: 1.6rem;
+        left: 0.9rem;
+        width: 30px;
+
+    }
+}
+
+
+.line-1,
+.line-2,
+.line-3 {
+
+    width: 100%;
+    height: $line-height;
+    background-color: $color-main-background;
+    transform: translate3d(0, 0, 0) rotate(0);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+    &.no-animation {
+        animation: none !important;
+    }
+
+}
+
+.line-1 {
+    animation: reverse-line-1 .5s $cubic-bezier-in forwards;
+
+    &.rotate {
+
+        animation: rotate-line-1 .5s $cubic-bezier-in forwards;
+    }
+}
+
+.line-2 {
+    margin-top: $line-space;
+    animation: reverse-line-2 .5s $cubic-bezier-in forwards;
+
+    &.rotate {
+
+        animation: rotate-line-2 .5s $cubic-bezier-in forwards;
+    }
+}
+
+.line-3 {
+    margin-top: $line-space;
+    animation: reverse-line-3 .5s $cubic-bezier-in forwards;
+
+    &.rotate {
+
+        animation: rotate-line-3 .5s $cubic-bezier-in forwards;
+    }
+}
+
+
+@keyframes rotate-line-1 {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(0deg);
+
+    }
+
+    50% {
+        transform: translate3d(0, $y-off-set, 0) rotate(0deg);
+
+
+    }
+
+    100% {
+        transform: translate3d(0, $y-off-set, 0) rotate(45deg);
+
+
+    }
+}
+
+@keyframes rotate-line-2 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes rotate-line-3 {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(0deg);
+
+    }
+
+    50% {
+        transform: translate3d(0, -$y-off-set, 0) rotate(0);
+
+
+    }
+
+    100% {
+        transform: translate3d(0, -$y-off-set, 0) rotate(135deg);
+
+
+    }
+}
+
+
+
+@keyframes reverse-line-1 {
+    0% {
+        transform: translate3d(0, $y-off-set, 0) rotate(45deg);
+
+    }
+
+    50% {
+        transform: translate3d(0, $y-off-set, 0) rotate(0deg);
+
+
+    }
+
+    100% {
+
+        transform: translate3d(0, 0, 0) rotate(0deg);
+    }
+}
+
+@keyframes reverse-line-2 {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+
+    }
+}
+
+@keyframes reverse-line-3 {
+    0% {
+        transform: translate3d(0, -$y-off-set, 0) rotate(135deg);
+
+    }
+
+    50% {
+        transform: translate3d(0, -$y-off-set, 0) rotate(0);
+
+
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0) rotate(0deg);
+
+
+    }
+}
+
+/* navbar icon styling end */
