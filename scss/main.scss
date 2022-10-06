@@ -39,7 +39,7 @@ body {
     text-transform: capitalize;
 
     @include mobile {
-        @include font($font-family-one, 1.4rem, 700);
+        @include font($font-family-one, 1.5rem, 700);
     }
 
     @include tablet {
@@ -67,7 +67,7 @@ body {
     text-transform: capitalize;
 
     @include mobile {
-        @include font($font-family-one, 1.6rem, 600);
+        @include font($font-family-one, 1.8rem, 600);
 
     }
 
@@ -98,7 +98,8 @@ body {
 
     @include mobile {
 
-        @include font($font-family-one, 1.2rem, 400);
+        @include font($font-family-one, 1.6rem, 700);
+    
     }
 
     @include tablet {
