@@ -99,7 +99,7 @@ body {
     @include mobile {
 
         @include font($font-family-one, 1.6rem, 700);
-    
+
     }
 
     @include tablet {

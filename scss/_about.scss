@@ -4,10 +4,10 @@
 
     height: 100vh;
 
-@include mobile{
-    height: 100%;
-    margin: 2rem 0;
-}
+    @include mobile {
+        height: 100%;
+        margin: 2rem 0;
+    }
 }
 
 .about-section-container {
@@ -25,17 +25,18 @@
     flex-direction: column;
     justify-content: center;
     border-radius: $border-radius ;
-    background-color: #9cff99;
+    background-color: #99a0ff;
     background-image:
-        radial-gradient(at 24% 23%, hsla(5, 67%, 60%, 1) 0px, transparent 50%),
-        radial-gradient(at 0% 65%, hsla(204, 68%, 62%, 1) 0px, transparent 50%),
-        radial-gradient(at 31% 82%, hsla(187, 80%, 69%, 1) 0px, transparent 50%),
-        radial-gradient(at 57% 28%, hsla(309, 88%, 68%, 1) 0px, transparent 50%),
-        radial-gradient(at 55% 3%, hsla(354, 67%, 66%, 1) 0px, transparent 50%),
-        radial-gradient(at 85% 16%, hsla(67, 68%, 72%, 1) 0px, transparent 50%),
-        radial-gradient(at 5% 20%, hsla(299, 97%, 71%, 1) 0px, transparent 50%);
+        radial-gradient(at 30% 57%, hsla(65, 72%, 77%, 1) 0px, transparent 50%),
+        radial-gradient(at 85% 23%, hsla(191, 88%, 69%, 1) 0px, transparent 50%),
+        radial-gradient(at 95% 79%, hsla(139, 91%, 62%, 1) 0px, transparent 50%),
+        radial-gradient(at 89% 82%, hsla(97, 67%, 71%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 92%, hsla(246, 77%, 79%, 1) 0px, transparent 50%),
+        radial-gradient(at 97% 26%, hsla(65, 80%, 73%, 1) 0px, transparent 50%),
+        radial-gradient(at 6% 13%, hsla(210, 61%, 76%, 1) 0px, transparent 50%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-margin-bottom: 3rem;
+    margin-bottom: 3rem;
+
     @include mobile {
         border-radius: 0;
     }

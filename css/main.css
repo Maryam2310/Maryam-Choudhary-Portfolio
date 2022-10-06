@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -83,7 +90,7 @@ html {
 .home-container .hero-section .center .intro-text-div .intro-text .text-1,
 .home-container .hero-section .center .intro-text-div .intro-text .text-2,
 .home-container .hero-section .center .intro-text-div .intro-text .text-3 {
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 5.6rem;
   font-weight: 700;
   padding-left: 5rem;
@@ -94,7 +101,7 @@ html {
   .home-container .hero-section .center .intro-text-div .intro-text .text-1,
 .home-container .hero-section .center .intro-text-div .intro-text .text-2,
 .home-container .hero-section .center .intro-text-div .intro-text .text-3 {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 3.2rem;
     font-weight: 700;
     padding-left: 0;
@@ -106,7 +113,7 @@ html {
   .home-container .hero-section .center .intro-text-div .intro-text .text-1,
 .home-container .hero-section .center .intro-text-div .intro-text .text-2,
 .home-container .hero-section .center .intro-text-div .intro-text .text-3 {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 4.8rem;
     font-weight: 700;
     padding-left: 0;
@@ -117,7 +124,7 @@ html {
   .home-container .hero-section .center .intro-text-div .intro-text .text-1,
 .home-container .hero-section .center .intro-text-div .intro-text .text-2,
 .home-container .hero-section .center .intro-text-div .intro-text .text-3 {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 4.8rem;
     font-weight: 700;
     padding-left: 0;
@@ -125,7 +132,7 @@ html {
   }
 }
 .home-container .hero-section .center .intro-text-div .intro-text .text-4 {
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 3.2rem;
   font-weight: 600;
   padding-left: 6rem;
@@ -135,7 +142,7 @@ html {
 }
 @media screen and (max-width: 480px) {
   .home-container .hero-section .center .intro-text-div .intro-text .text-4 {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
     padding-left: 0;
@@ -145,7 +152,7 @@ html {
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .home-container .hero-section .center .intro-text-div .intro-text .text-4 {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 2rem;
     font-weight: 700;
     padding-left: 0;
@@ -155,7 +162,7 @@ html {
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .home-container .hero-section .center .intro-text-div .intro-text .text-4 {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 2rem;
     font-weight: 700;
     padding-left: 0;
@@ -185,7 +192,7 @@ html {
   scale: 1.3;
 }
 .home-container [class$=icon] a {
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -194,14 +201,14 @@ html {
 }
 @media screen and (max-width: 480px) {
   .home-container [class$=icon] a {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .home-container [class$=icon] a {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 2rem;
     font-weight: 700;
   }
@@ -262,7 +269,7 @@ html {
   left: 20px;
   width: 51px;
   height: 51px;
-  transform: rotate(291deg);
+  transform: rotate(129deg);
 }
 .animation-div .blubb-1:after {
   position: absolute;
@@ -283,7 +290,7 @@ html {
   left: 20px;
   width: 52px;
   height: 52px;
-  transform: rotate(224deg);
+  transform: rotate(223deg);
 }
 .animation-div .blubb-2:after {
   position: absolute;
@@ -304,7 +311,7 @@ html {
   left: 20px;
   width: 53px;
   height: 53px;
-  transform: rotate(257deg);
+  transform: rotate(110deg);
 }
 .animation-div .blubb-3:after {
   position: absolute;
@@ -325,7 +332,7 @@ html {
   left: 20px;
   width: 54px;
   height: 54px;
-  transform: rotate(216deg);
+  transform: rotate(287deg);
 }
 .animation-div .blubb-4:after {
   position: absolute;
@@ -346,7 +353,7 @@ html {
   left: 20px;
   width: 55px;
   height: 55px;
-  transform: rotate(265deg);
+  transform: rotate(234deg);
 }
 .animation-div .blubb-5:after {
   position: absolute;
@@ -367,7 +374,7 @@ html {
   left: 20px;
   width: 56px;
   height: 56px;
-  transform: rotate(300deg);
+  transform: rotate(113deg);
 }
 .animation-div .blubb-6:after {
   position: absolute;
@@ -388,7 +395,7 @@ html {
   left: 20px;
   width: 57px;
   height: 57px;
-  transform: rotate(281deg);
+  transform: rotate(240deg);
 }
 .animation-div .blubb-7:after {
   position: absolute;
@@ -409,7 +416,7 @@ html {
   left: 20px;
   width: 58px;
   height: 58px;
-  transform: rotate(99deg);
+  transform: rotate(85deg);
 }
 .animation-div .blubb-8:after {
   position: absolute;
@@ -430,7 +437,7 @@ html {
   left: 38px;
   width: 8px;
   height: 8px;
-  transform: rotate(166deg);
+  transform: rotate(270deg);
 }
 .animation-div .sparkle-1:after {
   position: absolute;
@@ -451,7 +458,7 @@ html {
   left: 38px;
   width: 9px;
   height: 9px;
-  transform: rotate(299deg);
+  transform: rotate(263deg);
 }
 .animation-div .sparkle-2:after {
   position: absolute;
@@ -472,7 +479,7 @@ html {
   left: 38px;
   width: 10px;
   height: 10px;
-  transform: rotate(73deg);
+  transform: rotate(282deg);
 }
 .animation-div .sparkle-3:after {
   position: absolute;
@@ -493,7 +500,7 @@ html {
   left: 38px;
   width: 11px;
   height: 11px;
-  transform: rotate(86deg);
+  transform: rotate(293deg);
 }
 .animation-div .sparkle-4:after {
   position: absolute;
@@ -514,7 +521,7 @@ html {
   left: 38px;
   width: 12px;
   height: 12px;
-  transform: rotate(23deg);
+  transform: rotate(190deg);
 }
 .animation-div .sparkle-5:after {
   position: absolute;
@@ -535,7 +542,7 @@ html {
   left: 38px;
   width: 13px;
   height: 13px;
-  transform: rotate(5deg);
+  transform: rotate(173deg);
 }
 .animation-div .sparkle-6:after {
   position: absolute;
@@ -556,7 +563,7 @@ html {
   left: 38px;
   width: 14px;
   height: 14px;
-  transform: rotate(297deg);
+  transform: rotate(186deg);
 }
 .animation-div .sparkle-7:after {
   position: absolute;
@@ -577,7 +584,7 @@ html {
   left: 38px;
   width: 15px;
   height: 15px;
-  transform: rotate(63deg);
+  transform: rotate(52deg);
 }
 .animation-div .sparkle-8:after {
   position: absolute;
@@ -598,7 +605,7 @@ html {
   left: 38px;
   width: 16px;
   height: 16px;
-  transform: rotate(92deg);
+  transform: rotate(36deg);
 }
 .animation-div .sparkle-9:after {
   position: absolute;
@@ -619,7 +626,7 @@ html {
   left: 38px;
   width: 17px;
   height: 17px;
-  transform: rotate(230deg);
+  transform: rotate(213deg);
 }
 .animation-div .sparkle-10:after {
   position: absolute;
@@ -640,7 +647,7 @@ html {
   left: 38px;
   width: 18px;
   height: 18px;
-  transform: rotate(33deg);
+  transform: rotate(129deg);
 }
 .animation-div .sparkle-11:after {
   position: absolute;
@@ -661,7 +668,7 @@ html {
   left: 38px;
   width: 19px;
   height: 19px;
-  transform: rotate(57deg);
+  transform: rotate(298deg);
 }
 .animation-div .sparkle-12:after {
   position: absolute;
@@ -682,7 +689,7 @@ html {
   left: 38px;
   width: 20px;
   height: 20px;
-  transform: rotate(79deg);
+  transform: rotate(30deg);
 }
 .animation-div .sparkle-13:after {
   position: absolute;
@@ -703,7 +710,7 @@ html {
   left: 38px;
   width: 21px;
   height: 21px;
-  transform: rotate(281deg);
+  transform: rotate(23deg);
 }
 .animation-div .sparkle-14:after {
   position: absolute;
@@ -724,7 +731,7 @@ html {
   left: 38px;
   width: 22px;
   height: 22px;
-  transform: rotate(271deg);
+  transform: rotate(219deg);
 }
 .animation-div .sparkle-15:after {
   position: absolute;
@@ -815,7 +822,7 @@ html {
 }
 .nav .navbar-links ul li a {
   transition: all 0.5s ease-in-out;
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   position: relative;
@@ -830,14 +837,14 @@ html {
 }
 @media screen and (max-width: 480px) {
   .nav .navbar-links ul li a {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.6rem;
     font-weight: 700;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .nav .navbar-links ul li a {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 2rem;
     font-weight: 700;
   }
@@ -1126,8 +1133,8 @@ html {
   flex-direction: column;
   justify-content: center;
   border-radius: 20px;
-  background-color: #9cff99;
-  background-image: radial-gradient(at 24% 23%, hsl(5deg, 67%, 60%) 0px, transparent 50%), radial-gradient(at 0% 65%, hsl(204deg, 68%, 62%) 0px, transparent 50%), radial-gradient(at 31% 82%, hsl(187deg, 80%, 69%) 0px, transparent 50%), radial-gradient(at 57% 28%, hsl(309deg, 88%, 68%) 0px, transparent 50%), radial-gradient(at 55% 3%, hsl(354deg, 67%, 66%) 0px, transparent 50%), radial-gradient(at 85% 16%, hsl(67deg, 68%, 72%) 0px, transparent 50%), radial-gradient(at 5% 20%, hsl(299deg, 97%, 71%) 0px, transparent 50%);
+  background-color: #99a0ff;
+  background-image: radial-gradient(at 30% 57%, hsl(65deg, 72%, 77%) 0px, transparent 50%), radial-gradient(at 85% 23%, hsl(191deg, 88%, 69%) 0px, transparent 50%), radial-gradient(at 95% 79%, hsl(139deg, 91%, 62%) 0px, transparent 50%), radial-gradient(at 89% 82%, hsl(97deg, 67%, 71%) 0px, transparent 50%), radial-gradient(at 0% 92%, hsl(246deg, 77%, 79%) 0px, transparent 50%), radial-gradient(at 97% 26%, hsl(65deg, 80%, 73%) 0px, transparent 50%), radial-gradient(at 6% 13%, hsl(210deg, 61%, 76%) 0px, transparent 50%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-bottom: 3rem;
 }
@@ -1208,7 +1215,7 @@ html {
   border-radius: 7px;
 }
 .projects-grid .projects .project .project-name {
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 2.8rem;
   font-weight: 600;
   width: 100%;
@@ -1222,7 +1229,7 @@ html {
 }
 @media screen and (max-width: 480px) {
   .projects-grid .projects .project .project-name {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.8rem;
     font-weight: 600;
   }
@@ -1262,7 +1269,7 @@ html {
 }
 .projects-grid .projects .project .project-details .project-links .project-demo a, .projects-grid .projects .project .project-details .project-links .project-code a {
   transition: all 0.5s ease-in-out;
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   display: block;
@@ -1276,7 +1283,7 @@ html {
 }
 @media screen and (max-width: 480px) {
   .projects-grid .projects .project .project-details .project-links .project-demo a, .projects-grid .projects .project .project-details .project-links .project-code a {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
   }
@@ -1368,7 +1375,7 @@ html {
   margin: 1rem 0;
 }
 .contact-links .link-div a {
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 2.2rem;
   font-weight: 600;
   transition: all 0.5s ease-in-out;
@@ -1381,14 +1388,14 @@ html {
 }
 @media screen and (max-width: 480px) {
   .contact-links .link-div a {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.4rem;
     font-weight: 600;
   }
 }
 
 .footer {
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
@@ -1398,7 +1405,7 @@ html {
 }
 @media screen and (max-width: 480px) {
   .footer {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1rem;
     font-weight: 600;
     padding-top: 1rem;
@@ -1406,7 +1413,7 @@ html {
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .footer {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.8rem;
     font-weight: 600;
     padding-top: 1rem;
@@ -1573,7 +1580,7 @@ html {
   }
 }
 .skills-container .skill-div .icon-text {
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 1.9rem;
   font-weight: 700;
   padding-top: 0.5rem;
@@ -1581,21 +1588,21 @@ html {
 }
 @media screen and (max-width: 480px) {
   .skills-container .skill-div .icon-text {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .skills-container .skill-div .icon-text {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .skills-container .skill-div .icon-text {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
   }
@@ -1625,7 +1632,7 @@ body {
 }
 
 .section-heading {
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 2.8rem;
   font-weight: 700;
   padding-left: 1.4rem;
@@ -1634,21 +1641,21 @@ body {
 }
 @media screen and (max-width: 480px) {
   .section-heading {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .section-heading {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 2rem;
     font-weight: 400;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .section-heading {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 2.4rem;
     font-weight: 400;
   }
@@ -1661,7 +1668,7 @@ body {
 }
 
 .heading-two {
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 3.2rem;
   font-weight: 600;
   padding-left: 1.4rem;
@@ -1671,21 +1678,21 @@ body {
 }
 @media screen and (max-width: 480px) {
   .heading-two {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.8rem;
     font-weight: 600;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .heading-two {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 2.2rem;
     font-weight: 600;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .heading-two {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 2.4rem;
     font-weight: 600;
   }
@@ -1698,7 +1705,7 @@ body {
 }
 
 .paragraph-text {
-  font-family: "Arima", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 2.2rem;
   font-weight: 400;
   color: #122620;
@@ -1707,21 +1714,21 @@ body {
 }
 @media screen and (max-width: 480px) {
   .paragraph-text {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.6rem;
     font-weight: 700;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .paragraph-text {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .paragraph-text {
-    font-family: "Arima", cursive;
+    font-family: "Noto Sans", sans-serif;
     font-size: 2rem;
     font-weight: 400;
   }
