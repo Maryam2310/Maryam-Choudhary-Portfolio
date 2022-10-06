@@ -14,7 +14,6 @@
 
 .contact-section {
     padding: 3rem 0 1rem 0;
-margin: 3rem 0;
     border-radius: $border-radius;
     background-color: #99ceff;
     background-color: #99dfff;
@@ -30,6 +29,8 @@ margin: 3rem 0;
 
     @include mobile {
         border-radius: 0;
+        margin: 3rem 0;
+
     }
 }
 
