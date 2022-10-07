@@ -3,37 +3,48 @@
 
 
 .skill-section-wrapper {
-    height: 100vh;
     width: 100%;
+    height: 100vh;
 
     @include mobile {
-    //    height: 100%;
-        width: 90%;
-        margin: 0 auto;
+
+        height: 100%;
     }
 
 }
 
-.skill-section-wrapper {
+
+.skill-section-container {
+    height: 100%;
     display: flex;
     align-items: center;
+
 }
 
-
 .skill-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: $border-radius;
     padding: 4rem 0 2rem 0;
-    background-color: #99f1ff;
+    background-color: #beff99;
     background-image:
-        radial-gradient(at 82% 85%, hsla(139, 79%, 67%, 1) 0px, transparent 50%),
-        radial-gradient(at 99% 69%, hsla(328, 83%, 60%, 1) 0px, transparent 50%),
-        radial-gradient(at 88% 85%, hsla(310, 68%, 61%, 1) 0px, transparent 50%),
-        radial-gradient(at 17% 69%, hsla(43, 78%, 74%, 1) 0px, transparent 50%),
-        radial-gradient(at 47% 37%, hsla(285, 96%, 69%, 1) 0px, transparent 50%),
-        radial-gradient(at 21% 31%, hsla(328, 68%, 71%, 1) 0px, transparent 50%),
-        radial-gradient(at 39% 21%, hsla(288, 90%, 66%, 1) 0px, transparent 50%);
+        radial-gradient(at 66% 89%, hsla(339, 92%, 69%, 1) 0px, transparent 50%),
+        radial-gradient(at 93% 67%, hsla(161, 79%, 72%, 1) 0px, transparent 50%),
+        radial-gradient(at 16% 71%, hsla(111, 91%, 71%, 1) 0px, transparent 50%),
+        radial-gradient(at 59% 28%, hsla(96, 60%, 69%, 1) 0px, transparent 50%),
+        radial-gradient(at 45% 94%, hsla(195, 68%, 63%, 1) 0px, transparent 50%),
+        radial-gradient(at 34% 63%, hsla(103, 63%, 70%, 1) 0px, transparent 50%),
+        radial-gradient(at 58% 49%, hsla(94, 97%, 65%, 1) 0px, transparent 50%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
+    @include mobile {
+        width: 90%;
+        margin: 4rem auto 0 auto;
+        padding: 4rem 0 2rem 0;
+
+    }
 
     @include tablet {
         padding: 2rem 0;
@@ -85,8 +96,8 @@
     }
 
     .skill-div {
-        width: 100px;
-        height: 90px;
+        width: 120px;
+        height: 110px;
         display: flex;
         justify-content: center;
         align-items: center;

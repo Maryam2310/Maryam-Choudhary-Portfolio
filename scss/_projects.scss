@@ -15,21 +15,29 @@
 
 
 .project-section {
-    margin-top: 8rem;
     padding: 2rem 1rem 1rem 1rem;
     border-radius: $border-radius;
     background-color: #d5ff99;
+    background-color: #99d5ff;
     background-image:
-        radial-gradient(at 20% 11%, hsla(235, 66%, 73%, 1) 0px, transparent 50%),
-        radial-gradient(at 40% 82%, hsla(132, 92%, 77%, 1) 0px, transparent 50%),
-        radial-gradient(at 61% 5%, hsla(25, 75%, 78%, 1) 0px, transparent 50%),
-        radial-gradient(at 1% 74%, hsla(270, 98%, 72%, 1) 0px, transparent 50%),
-        radial-gradient(at 9% 82%, hsla(74, 79%, 62%, 1) 0px, transparent 50%),
-        radial-gradient(at 83% 58%, hsla(247, 82%, 65%, 1) 0px, transparent 50%),
-        radial-gradient(at 66% 84%, hsla(257, 68%, 69%, 1) 0px, transparent 50%);
+        radial-gradient(at 28% 54%, hsla(221, 60%, 61%, 1) 0px, transparent 50%),
+        radial-gradient(at 78% 12%, hsla(196, 98%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 87% 33%, hsla(232, 60%, 79%, 1) 0px, transparent 50%),
+        radial-gradient(at 92% 92%, hsla(94, 96%, 71%, 1) 0px, transparent 50%),
+        radial-gradient(at 38% 80%, hsla(164, 96%, 69%, 1) 0px, transparent 50%),
+        radial-gradient(at 15% 71%, hsla(224, 69%, 66%, 1) 0px, transparent 50%),
+        radial-gradient(at 40% 80%, hsla(303, 79%, 71%, 1) 0px, transparent 50%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
+    @include mobile {
+        margin: 4rem auto 0 auto;
 
+    }
+
+    @include tablet {
+        margin: 4rem 0;
+
+    }
 }
 
 

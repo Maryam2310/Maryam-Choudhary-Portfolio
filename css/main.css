@@ -23,11 +23,6 @@ html {
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 480px) {
-  .home-container {
-    height: 100%;
-  }
-}
 .home-container .hero-section {
   width: 100%;
   height: 90%;
@@ -70,14 +65,13 @@ html {
   line-height: 1.4;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   color: #122620;
   background-color: #ff99d6;
   background-image: radial-gradient(at 73% 45%, hsl(309deg, 96%, 76%) 0px, transparent 50%), radial-gradient(at 59% 73%, hsl(250deg, 92%, 75%) 0px, transparent 50%), radial-gradient(at 54% 25%, hsl(272deg, 91%, 73%) 0px, transparent 50%), radial-gradient(at 64% 90%, hsl(288deg, 77%, 68%) 0px, transparent 50%), radial-gradient(at 40% 34%, hsl(29deg, 68%, 78%) 0px, transparent 50%), radial-gradient(at 98% 89%, hsl(119deg, 90%, 70%) 0px, transparent 50%), radial-gradient(at 4% 79%, hsl(125deg, 84%, 77%) 0px, transparent 50%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 @media screen and (max-width: 480px) {
   .home-container .hero-section .center .intro-text-div .intro-text {
-    margin-top: 4rem;
     padding: 10rem 0;
     border-radius: 20px;
   }
@@ -239,11 +233,6 @@ html {
   border-top-right-radius: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-@media screen and (max-width: 480px) {
-  .animation-div .frame {
-    border-radius: 0;
-  }
-}
 .animation-div .center-div {
   position: absolute;
   top: 50%;
@@ -264,7 +253,7 @@ html {
   left: 20px;
   width: 51px;
   height: 51px;
-  transform: rotate(206deg);
+  transform: rotate(191deg);
 }
 .animation-div .blubb-1:after {
   position: absolute;
@@ -285,7 +274,7 @@ html {
   left: 20px;
   width: 52px;
   height: 52px;
-  transform: rotate(8deg);
+  transform: rotate(118deg);
 }
 .animation-div .blubb-2:after {
   position: absolute;
@@ -306,7 +295,7 @@ html {
   left: 20px;
   width: 53px;
   height: 53px;
-  transform: rotate(271deg);
+  transform: rotate(192deg);
 }
 .animation-div .blubb-3:after {
   position: absolute;
@@ -327,7 +316,7 @@ html {
   left: 20px;
   width: 54px;
   height: 54px;
-  transform: rotate(262deg);
+  transform: rotate(66deg);
 }
 .animation-div .blubb-4:after {
   position: absolute;
@@ -348,7 +337,7 @@ html {
   left: 20px;
   width: 55px;
   height: 55px;
-  transform: rotate(199deg);
+  transform: rotate(1deg);
 }
 .animation-div .blubb-5:after {
   position: absolute;
@@ -369,7 +358,7 @@ html {
   left: 20px;
   width: 56px;
   height: 56px;
-  transform: rotate(181deg);
+  transform: rotate(269deg);
 }
 .animation-div .blubb-6:after {
   position: absolute;
@@ -390,7 +379,7 @@ html {
   left: 20px;
   width: 57px;
   height: 57px;
-  transform: rotate(159deg);
+  transform: rotate(292deg);
 }
 .animation-div .blubb-7:after {
   position: absolute;
@@ -411,7 +400,7 @@ html {
   left: 20px;
   width: 58px;
   height: 58px;
-  transform: rotate(80deg);
+  transform: rotate(96deg);
 }
 .animation-div .blubb-8:after {
   position: absolute;
@@ -432,7 +421,7 @@ html {
   left: 38px;
   width: 8px;
   height: 8px;
-  transform: rotate(203deg);
+  transform: rotate(7deg);
 }
 .animation-div .sparkle-1:after {
   position: absolute;
@@ -453,7 +442,7 @@ html {
   left: 38px;
   width: 9px;
   height: 9px;
-  transform: rotate(282deg);
+  transform: rotate(34deg);
 }
 .animation-div .sparkle-2:after {
   position: absolute;
@@ -474,7 +463,7 @@ html {
   left: 38px;
   width: 10px;
   height: 10px;
-  transform: rotate(114deg);
+  transform: rotate(249deg);
 }
 .animation-div .sparkle-3:after {
   position: absolute;
@@ -495,7 +484,7 @@ html {
   left: 38px;
   width: 11px;
   height: 11px;
-  transform: rotate(197deg);
+  transform: rotate(33deg);
 }
 .animation-div .sparkle-4:after {
   position: absolute;
@@ -516,7 +505,7 @@ html {
   left: 38px;
   width: 12px;
   height: 12px;
-  transform: rotate(296deg);
+  transform: rotate(257deg);
 }
 .animation-div .sparkle-5:after {
   position: absolute;
@@ -537,7 +526,7 @@ html {
   left: 38px;
   width: 13px;
   height: 13px;
-  transform: rotate(255deg);
+  transform: rotate(83deg);
 }
 .animation-div .sparkle-6:after {
   position: absolute;
@@ -558,7 +547,7 @@ html {
   left: 38px;
   width: 14px;
   height: 14px;
-  transform: rotate(206deg);
+  transform: rotate(232deg);
 }
 .animation-div .sparkle-7:after {
   position: absolute;
@@ -579,7 +568,7 @@ html {
   left: 38px;
   width: 15px;
   height: 15px;
-  transform: rotate(158deg);
+  transform: rotate(184deg);
 }
 .animation-div .sparkle-8:after {
   position: absolute;
@@ -600,7 +589,7 @@ html {
   left: 38px;
   width: 16px;
   height: 16px;
-  transform: rotate(270deg);
+  transform: rotate(220deg);
 }
 .animation-div .sparkle-9:after {
   position: absolute;
@@ -621,7 +610,7 @@ html {
   left: 38px;
   width: 17px;
   height: 17px;
-  transform: rotate(10deg);
+  transform: rotate(17deg);
 }
 .animation-div .sparkle-10:after {
   position: absolute;
@@ -642,7 +631,7 @@ html {
   left: 38px;
   width: 18px;
   height: 18px;
-  transform: rotate(28deg);
+  transform: rotate(143deg);
 }
 .animation-div .sparkle-11:after {
   position: absolute;
@@ -663,7 +652,7 @@ html {
   left: 38px;
   width: 19px;
   height: 19px;
-  transform: rotate(179deg);
+  transform: rotate(270deg);
 }
 .animation-div .sparkle-12:after {
   position: absolute;
@@ -684,7 +673,7 @@ html {
   left: 38px;
   width: 20px;
   height: 20px;
-  transform: rotate(80deg);
+  transform: rotate(232deg);
 }
 .animation-div .sparkle-13:after {
   position: absolute;
@@ -705,7 +694,7 @@ html {
   left: 38px;
   width: 21px;
   height: 21px;
-  transform: rotate(43deg);
+  transform: rotate(52deg);
 }
 .animation-div .sparkle-14:after {
   position: absolute;
@@ -726,7 +715,7 @@ html {
   left: 38px;
   width: 22px;
   height: 22px;
-  transform: rotate(99deg);
+  transform: rotate(193deg);
 }
 .animation-div .sparkle-15:after {
   position: absolute;
@@ -1111,8 +1100,6 @@ html {
 @media screen and (max-width: 480px) {
   .about-section-wrapper {
     height: 100%;
-    width: 90%;
-    margin: 3rem auto;
   }
 }
 
@@ -1125,7 +1112,7 @@ html {
 .about-section {
   height: 80%;
   width: 100%;
-  padding-top: 2rem;
+  padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1133,6 +1120,13 @@ html {
   background-color: #99a0ff;
   background-image: radial-gradient(at 30% 57%, hsl(65deg, 72%, 77%) 0px, transparent 50%), radial-gradient(at 85% 23%, hsl(191deg, 88%, 69%) 0px, transparent 50%), radial-gradient(at 95% 79%, hsl(139deg, 91%, 62%) 0px, transparent 50%), radial-gradient(at 89% 82%, hsl(97deg, 67%, 71%) 0px, transparent 50%), radial-gradient(at 0% 92%, hsl(246deg, 77%, 79%) 0px, transparent 50%), radial-gradient(at 97% 26%, hsl(65deg, 80%, 73%) 0px, transparent 50%), radial-gradient(at 6% 13%, hsl(210deg, 61%, 76%) 0px, transparent 50%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media screen and (max-width: 480px) {
+  .about-section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 4rem 0 2rem 0;
+  }
 }
 
 .about-text {
@@ -1169,12 +1163,22 @@ html {
 }
 
 .project-section {
-  margin-top: 8rem;
   padding: 2rem 1rem 1rem 1rem;
   border-radius: 20px;
   background-color: #d5ff99;
-  background-image: radial-gradient(at 20% 11%, hsl(235deg, 66%, 73%) 0px, transparent 50%), radial-gradient(at 40% 82%, hsl(132deg, 92%, 77%) 0px, transparent 50%), radial-gradient(at 61% 5%, hsl(25deg, 75%, 78%) 0px, transparent 50%), radial-gradient(at 1% 74%, hsl(270deg, 98%, 72%) 0px, transparent 50%), radial-gradient(at 9% 82%, hsl(74deg, 79%, 62%) 0px, transparent 50%), radial-gradient(at 83% 58%, hsl(247deg, 82%, 65%) 0px, transparent 50%), radial-gradient(at 66% 84%, hsl(257deg, 68%, 69%) 0px, transparent 50%);
+  background-color: #99d5ff;
+  background-image: radial-gradient(at 28% 54%, hsl(221deg, 60%, 61%) 0px, transparent 50%), radial-gradient(at 78% 12%, hsl(196deg, 98%, 75%) 0px, transparent 50%), radial-gradient(at 87% 33%, hsl(232deg, 60%, 79%) 0px, transparent 50%), radial-gradient(at 92% 92%, hsl(94deg, 96%, 71%) 0px, transparent 50%), radial-gradient(at 38% 80%, hsl(164deg, 96%, 69%) 0px, transparent 50%), radial-gradient(at 15% 71%, hsl(224deg, 69%, 66%) 0px, transparent 50%), radial-gradient(at 40% 80%, hsl(303deg, 79%, 71%) 0px, transparent 50%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media screen and (max-width: 480px) {
+  .project-section {
+    margin: 4rem auto 0 auto;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .project-section {
+    margin: 4rem 0;
+  }
 }
 
 .projects-grid .projects {
@@ -1322,13 +1326,14 @@ html {
   border-radius: 20px;
   background-color: #99ceff;
   background-color: #99dfff;
-  background-image: radial-gradient(at 23% 13%, hsl(74deg, 98%, 65%) 0px, transparent 50%), radial-gradient(at 62% 52%, hsl(276deg, 66%, 70%) 0px, transparent 50%), radial-gradient(at 79% 47%, hsl(342deg, 68%, 65%) 0px, transparent 50%), radial-gradient(at 94% 78%, hsl(94deg, 84%, 67%) 0px, transparent 50%), radial-gradient(at 12% 63%, hsl(182deg, 81%, 71%) 0px, transparent 50%), radial-gradient(at 49% 92%, hsl(357deg, 69%, 74%) 0px, transparent 50%), radial-gradient(at 28% 83%, hsl(260deg, 75%, 70%) 0px, transparent 50%);
+  background-color: #99ddff;
+  background-image: radial-gradient(at 63% 65%, hsl(80deg, 88%, 70%) 0px, transparent 50%), radial-gradient(at 95% 5%, hsl(188deg, 67%, 73%) 0px, transparent 50%), radial-gradient(at 58% 36%, hsl(350deg, 65%, 71%) 0px, transparent 50%), radial-gradient(at 28% 20%, hsl(251deg, 60%, 78%) 0px, transparent 50%), radial-gradient(at 86% 8%, hsl(99deg, 74%, 77%) 0px, transparent 50%), radial-gradient(at 50% 11%, hsl(301deg, 73%, 64%) 0px, transparent 50%), radial-gradient(at 57% 84%, hsl(280deg, 90%, 63%) 0px, transparent 50%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 @media screen and (max-width: 480px) {
   .contact-section {
-    margin: 3rem auto;
     width: 90%;
+    margin: 4rem auto 0 auto;
   }
 }
 
@@ -1445,27 +1450,38 @@ html {
 }
 
 .skill-section-wrapper {
-  height: 100vh;
   width: 100%;
+  height: 100vh;
 }
 @media screen and (max-width: 480px) {
   .skill-section-wrapper {
-    width: 90%;
-    margin: 0 auto;
+    height: 100%;
   }
 }
 
-.skill-section-wrapper {
+.skill-section-container {
+  height: 100%;
   display: flex;
   align-items: center;
 }
 
 .skill-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-radius: 20px;
   padding: 4rem 0 2rem 0;
-  background-color: #99f1ff;
-  background-image: radial-gradient(at 82% 85%, hsl(139deg, 79%, 67%) 0px, transparent 50%), radial-gradient(at 99% 69%, hsl(328deg, 83%, 60%) 0px, transparent 50%), radial-gradient(at 88% 85%, hsl(310deg, 68%, 61%) 0px, transparent 50%), radial-gradient(at 17% 69%, hsl(43deg, 78%, 74%) 0px, transparent 50%), radial-gradient(at 47% 37%, hsl(285deg, 96%, 69%) 0px, transparent 50%), radial-gradient(at 21% 31%, hsl(328deg, 68%, 71%) 0px, transparent 50%), radial-gradient(at 39% 21%, hsl(288deg, 90%, 66%) 0px, transparent 50%);
+  background-color: #beff99;
+  background-image: radial-gradient(at 66% 89%, hsl(339deg, 92%, 69%) 0px, transparent 50%), radial-gradient(at 93% 67%, hsl(161deg, 79%, 72%) 0px, transparent 50%), radial-gradient(at 16% 71%, hsl(111deg, 91%, 71%) 0px, transparent 50%), radial-gradient(at 59% 28%, hsl(96deg, 60%, 69%) 0px, transparent 50%), radial-gradient(at 45% 94%, hsl(195deg, 68%, 63%) 0px, transparent 50%), radial-gradient(at 34% 63%, hsl(103deg, 63%, 70%) 0px, transparent 50%), radial-gradient(at 58% 49%, hsl(94deg, 97%, 65%) 0px, transparent 50%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media screen and (max-width: 480px) {
+  .skill-section {
+    width: 90%;
+    margin: 4rem auto 0 auto;
+    padding: 4rem 0 2rem 0;
+  }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .skill-section {
@@ -1512,8 +1528,8 @@ html {
   }
 }
 .skills-container .skill-div {
-  width: 100px;
-  height: 90px;
+  width: 120px;
+  height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1633,6 +1649,7 @@ body {
   padding-left: 1.4rem;
   color: #122620;
   text-transform: capitalize;
+  text-align: left;
 }
 @media screen and (max-width: 480px) {
   .section-heading {
@@ -1658,7 +1675,6 @@ body {
 @media screen and (min-width: 1025px) {
   .section-heading {
     padding-left: 4rem;
-    padding-bottom: 3rem;
   }
 }
 
@@ -1670,6 +1686,7 @@ body {
   padding-top: 1rem;
   color: #122620;
   text-transform: capitalize;
+  text-align: left;
 }
 @media screen and (max-width: 480px) {
   .heading-two {
