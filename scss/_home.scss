@@ -207,24 +207,35 @@
     width: 40%;
     height: 100%;
 
-    @include mobile {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        z-index: -1;
-    }
+    // @include mobile {
+    //     position: fixed;
+    //     top: 0;
+    //     left: 0;
+    //     right: 0;
+    //     width: 100%;
+    //     z-index: -1;
+    // }
 
+
+
+    @include mobile {
+        display: none;
+    }
 
     @include tablet {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        z-index: -1;
+        display: none;
     }
+
+
+
+    // @include tablet {
+    //     position: fixed;
+    //     top: 0;
+    //     left: 0;
+    //     right: 0;
+    //     width: 100%;
+    //     z-index: -1;
+    // }
 
     .frame {
         width: 100%;

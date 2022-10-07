@@ -2,13 +2,13 @@
 
 .about-section-wrapper {
 
-    height: 100vh;
     width: 100%;
-
+   height: 100vh;
+  
     @include mobile {
-        height: 100%;
+       height: 100%;
         width: 90%;
-        margin: 2rem auto;
+       margin: 3rem auto;
     }
 }
 
@@ -16,13 +16,14 @@
     height: 100%;
     display: flex;
     align-items: center;
+//background-color: yellow;
 }
 
 
 .about-section {
     height: 80%;
     width: 100%;
-    padding-top: 6rem;
+   padding-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +38,7 @@
         radial-gradient(at 97% 26%, hsla(65, 80%, 73%, 1) 0px, transparent 50%),
         radial-gradient(at 6% 13%, hsla(210, 61%, 76%, 1) 0px, transparent 50%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-bottom: 3rem;
+//    margin-bottom: 3rem;
 
 
 }
