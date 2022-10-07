@@ -96,34 +96,13 @@
     }
 
     .skill-div {
-        width: 130px;
-        height: 130px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: center;
         border-radius: 15px;
-        background-color: #FF99CC;
-
-
-        @include mobile {
-            width: 70px;
-            height: 70px;
-        }
-
-        @include tablet {
-            width: 85px;
-            height: 85px;
-
-        }
-
-        @include laptop {
-            width: 85px;
-            height: 85px;
-
-        }
-
+       
         .icon-div {
 
 
