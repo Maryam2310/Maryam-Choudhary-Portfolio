@@ -4,6 +4,13 @@
 .project-section-wrapper {
     height: 100%;
     width: 100%;
+
+    @include mobile {
+        width: 90%;
+margin: 0 auto;
+    }
+
+
 }
 
 
@@ -22,9 +29,9 @@
         radial-gradient(at 66% 84%, hsla(257, 68%, 69%, 1) 0px, transparent 50%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-    @include mobile {
-        border-radius: 0;
-    }
+    // @include mobile {
+    //     border-radius: 0;
+    // }
 }
 
 
@@ -33,11 +40,13 @@
 
     .projects {
         height: 100%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         gap: 4rem;
+
 
         .project {
             width: 350px;
@@ -68,7 +77,15 @@
                     border-radius: 7px;
                 }
 
+    
             }
+
+
+            @include mobile {
+                width: 90%;
+            }
+    
+
 
 
             .project-name {

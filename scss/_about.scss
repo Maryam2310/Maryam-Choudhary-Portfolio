@@ -3,10 +3,12 @@
 .about-section-wrapper {
 
     height: 100vh;
+    width: 100%;
 
     @include mobile {
         height: 100%;
-        margin: 2rem 0;
+        width: 90%;
+        margin: 2rem auto;
     }
 }
 
@@ -20,7 +22,7 @@
 .about-section {
     height: 80%;
     width: 100%;
-    padding-top: 3rem;
+   padding-top: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,9 +39,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 3rem;
 
-    @include mobile {
-        border-radius: 0;
-    }
+
 }
 
 
