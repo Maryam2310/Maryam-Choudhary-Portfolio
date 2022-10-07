@@ -7,12 +7,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-
-
-
 }
-
-
 
 
 .contact-section {
@@ -31,12 +26,11 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
     @include mobile {
-//        border-radius: 0;
         margin: 3rem auto;
 
-            width: 90%;
-        }
+        width: 90%;
     }
+}
 
 
 

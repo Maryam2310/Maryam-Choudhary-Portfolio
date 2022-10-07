@@ -7,7 +7,7 @@
 
     @include mobile {
         width: 90%;
-margin: 0 auto;
+        margin: 0 auto;
     }
 
 
@@ -29,9 +29,7 @@ margin: 0 auto;
         radial-gradient(at 66% 84%, hsla(257, 68%, 69%, 1) 0px, transparent 50%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-    // @include mobile {
-    //     border-radius: 0;
-    // }
+
 }
 
 
@@ -77,14 +75,14 @@ margin: 0 auto;
                     border-radius: 7px;
                 }
 
-    
+
             }
 
 
             @include mobile {
                 width: 90%;
             }
-    
+
 
 
 

@@ -19,7 +19,7 @@ body {
 .main-wrapper {
     height: 100%;
     padding: 0 6rem;
-// width: 100%;
+
     @include mobile {
         padding: 0;
     }

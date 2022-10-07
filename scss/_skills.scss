@@ -4,11 +4,12 @@
 
 .skill-section-wrapper {
     height: 100vh;
-width: 100%;
+    width: 100%;
+
     @include mobile {
         height: 100%;
-            width: 90%;
-margin: 0 auto;
+        width: 90%;
+        margin: 0 auto;
     }
 
 }
@@ -33,7 +34,7 @@ margin: 0 auto;
         radial-gradient(at 39% 21%, hsla(288, 90%, 66%, 1) 0px, transparent 50%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-  
+
     @include tablet {
         padding: 2rem 0;
 
