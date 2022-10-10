@@ -83,7 +83,8 @@ html {
 }
 .home-container .hero-section .center .intro-text-div .intro-text .text-1,
 .home-container .hero-section .center .intro-text-div .intro-text .text-2,
-.home-container .hero-section .center .intro-text-div .intro-text .text-3 {
+.home-container .hero-section .center .intro-text-div .intro-text .text-3,
+.home-container .hero-section .center .intro-text-div .intro-text .text-4 {
   font-family: "Noto Sans", sans-serif;
   font-size: 5.6rem;
   font-weight: 700;
@@ -94,19 +95,20 @@ html {
 @media screen and (max-width: 480px) {
   .home-container .hero-section .center .intro-text-div .intro-text .text-1,
 .home-container .hero-section .center .intro-text-div .intro-text .text-2,
-.home-container .hero-section .center .intro-text-div .intro-text .text-3 {
+.home-container .hero-section .center .intro-text-div .intro-text .text-3,
+.home-container .hero-section .center .intro-text-div .intro-text .text-4 {
     font-family: "Noto Sans", sans-serif;
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     font-weight: 700;
     padding-left: 0;
-    line-height: 1.2;
     text-align: center;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .home-container .hero-section .center .intro-text-div .intro-text .text-1,
 .home-container .hero-section .center .intro-text-div .intro-text .text-2,
-.home-container .hero-section .center .intro-text-div .intro-text .text-3 {
+.home-container .hero-section .center .intro-text-div .intro-text .text-3,
+.home-container .hero-section .center .intro-text-div .intro-text .text-4 {
     font-family: "Noto Sans", sans-serif;
     font-size: 4.8rem;
     font-weight: 700;
@@ -117,7 +119,8 @@ html {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .home-container .hero-section .center .intro-text-div .intro-text .text-1,
 .home-container .hero-section .center .intro-text-div .intro-text .text-2,
-.home-container .hero-section .center .intro-text-div .intro-text .text-3 {
+.home-container .hero-section .center .intro-text-div .intro-text .text-3,
+.home-container .hero-section .center .intro-text-div .intro-text .text-4 {
     font-family: "Noto Sans", sans-serif;
     font-size: 4.8rem;
     font-weight: 700;
@@ -125,7 +128,22 @@ html {
     text-align: center;
   }
 }
-.home-container .hero-section .center .intro-text-div .intro-text .text-4 {
+@media screen and (max-width: 480px) {
+  .home-container .hero-section .center .intro-text-div .intro-text .text-2 {
+    opacity: 0.7;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 480px) {
+  .home-container .hero-section .center .intro-text-div .intro-text .text-3 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+}
+.home-container .hero-section .center .intro-text-div .intro-text .text-5 {
   font-family: "Noto Sans", sans-serif;
   font-size: 3.2rem;
   font-weight: 600;
@@ -135,7 +153,7 @@ html {
   text-transform: capitalize;
 }
 @media screen and (max-width: 480px) {
-  .home-container .hero-section .center .intro-text-div .intro-text .text-4 {
+  .home-container .hero-section .center .intro-text-div .intro-text .text-5 {
     font-family: "Noto Sans", sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
@@ -145,7 +163,7 @@ html {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .home-container .hero-section .center .intro-text-div .intro-text .text-4 {
+  .home-container .hero-section .center .intro-text-div .intro-text .text-5 {
     font-family: "Noto Sans", sans-serif;
     font-size: 2rem;
     font-weight: 700;
@@ -155,7 +173,7 @@ html {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .home-container .hero-section .center .intro-text-div .intro-text .text-4 {
+  .home-container .hero-section .center .intro-text-div .intro-text .text-5 {
     font-family: "Noto Sans", sans-serif;
     font-size: 2rem;
     font-weight: 700;
@@ -253,7 +271,7 @@ html {
   left: 20px;
   width: 51px;
   height: 51px;
-  transform: rotate(11deg);
+  transform: rotate(28deg);
 }
 .animation-div .blubb-1:after {
   position: absolute;
@@ -274,7 +292,7 @@ html {
   left: 20px;
   width: 52px;
   height: 52px;
-  transform: rotate(227deg);
+  transform: rotate(213deg);
 }
 .animation-div .blubb-2:after {
   position: absolute;
@@ -295,7 +313,7 @@ html {
   left: 20px;
   width: 53px;
   height: 53px;
-  transform: rotate(83deg);
+  transform: rotate(46deg);
 }
 .animation-div .blubb-3:after {
   position: absolute;
@@ -316,7 +334,7 @@ html {
   left: 20px;
   width: 54px;
   height: 54px;
-  transform: rotate(138deg);
+  transform: rotate(286deg);
 }
 .animation-div .blubb-4:after {
   position: absolute;
@@ -337,7 +355,7 @@ html {
   left: 20px;
   width: 55px;
   height: 55px;
-  transform: rotate(171deg);
+  transform: rotate(255deg);
 }
 .animation-div .blubb-5:after {
   position: absolute;
@@ -358,7 +376,7 @@ html {
   left: 20px;
   width: 56px;
   height: 56px;
-  transform: rotate(219deg);
+  transform: rotate(41deg);
 }
 .animation-div .blubb-6:after {
   position: absolute;
@@ -379,7 +397,7 @@ html {
   left: 20px;
   width: 57px;
   height: 57px;
-  transform: rotate(4deg);
+  transform: rotate(23deg);
 }
 .animation-div .blubb-7:after {
   position: absolute;
@@ -400,7 +418,7 @@ html {
   left: 20px;
   width: 58px;
   height: 58px;
-  transform: rotate(192deg);
+  transform: rotate(115deg);
 }
 .animation-div .blubb-8:after {
   position: absolute;
@@ -421,7 +439,7 @@ html {
   left: 38px;
   width: 8px;
   height: 8px;
-  transform: rotate(130deg);
+  transform: rotate(134deg);
 }
 .animation-div .sparkle-1:after {
   position: absolute;
@@ -442,7 +460,7 @@ html {
   left: 38px;
   width: 9px;
   height: 9px;
-  transform: rotate(118deg);
+  transform: rotate(296deg);
 }
 .animation-div .sparkle-2:after {
   position: absolute;
@@ -463,7 +481,7 @@ html {
   left: 38px;
   width: 10px;
   height: 10px;
-  transform: rotate(294deg);
+  transform: rotate(35deg);
 }
 .animation-div .sparkle-3:after {
   position: absolute;
@@ -484,7 +502,7 @@ html {
   left: 38px;
   width: 11px;
   height: 11px;
-  transform: rotate(135deg);
+  transform: rotate(213deg);
 }
 .animation-div .sparkle-4:after {
   position: absolute;
@@ -505,7 +523,7 @@ html {
   left: 38px;
   width: 12px;
   height: 12px;
-  transform: rotate(139deg);
+  transform: rotate(3deg);
 }
 .animation-div .sparkle-5:after {
   position: absolute;
@@ -526,7 +544,7 @@ html {
   left: 38px;
   width: 13px;
   height: 13px;
-  transform: rotate(294deg);
+  transform: rotate(152deg);
 }
 .animation-div .sparkle-6:after {
   position: absolute;
@@ -547,7 +565,7 @@ html {
   left: 38px;
   width: 14px;
   height: 14px;
-  transform: rotate(217deg);
+  transform: rotate(67deg);
 }
 .animation-div .sparkle-7:after {
   position: absolute;
@@ -568,7 +586,7 @@ html {
   left: 38px;
   width: 15px;
   height: 15px;
-  transform: rotate(275deg);
+  transform: rotate(94deg);
 }
 .animation-div .sparkle-8:after {
   position: absolute;
@@ -589,7 +607,7 @@ html {
   left: 38px;
   width: 16px;
   height: 16px;
-  transform: rotate(62deg);
+  transform: rotate(240deg);
 }
 .animation-div .sparkle-9:after {
   position: absolute;
@@ -610,7 +628,7 @@ html {
   left: 38px;
   width: 17px;
   height: 17px;
-  transform: rotate(207deg);
+  transform: rotate(63deg);
 }
 .animation-div .sparkle-10:after {
   position: absolute;
@@ -631,7 +649,7 @@ html {
   left: 38px;
   width: 18px;
   height: 18px;
-  transform: rotate(97deg);
+  transform: rotate(293deg);
 }
 .animation-div .sparkle-11:after {
   position: absolute;
@@ -652,7 +670,7 @@ html {
   left: 38px;
   width: 19px;
   height: 19px;
-  transform: rotate(208deg);
+  transform: rotate(57deg);
 }
 .animation-div .sparkle-12:after {
   position: absolute;
@@ -673,7 +691,7 @@ html {
   left: 38px;
   width: 20px;
   height: 20px;
-  transform: rotate(19deg);
+  transform: rotate(217deg);
 }
 .animation-div .sparkle-13:after {
   position: absolute;
@@ -694,7 +712,7 @@ html {
   left: 38px;
   width: 21px;
   height: 21px;
-  transform: rotate(99deg);
+  transform: rotate(274deg);
 }
 .animation-div .sparkle-14:after {
   position: absolute;
@@ -715,7 +733,7 @@ html {
   left: 38px;
   width: 22px;
   height: 22px;
-  transform: rotate(78deg);
+  transform: rotate(85deg);
 }
 .animation-div .sparkle-15:after {
   position: absolute;

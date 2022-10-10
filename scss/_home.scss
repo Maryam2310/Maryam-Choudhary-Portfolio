@@ -69,16 +69,16 @@
 
                     .text-1,
                     .text-2,
-                    .text-3 {
+                    .text-3,
+                    .text-4 {
                         @include font($font-family-one, 5.6rem, 700);
                         padding-left: 5rem;
                         text-align: left;
                         text-transform: capitalize;
 
                         @include mobile {
-                            @include font($font-family-one, 3.2rem, 700);
+                            @include font($font-family-one, 2.6rem, 700);
                             padding-left: 0;
-                            line-height: 1.2;
                             text-align: center;
                         }
 
@@ -96,7 +96,25 @@
 
                     }
 
-                    .text-4 {
+
+                    .text-2 {
+                        @include mobile {
+                            opacity: 0.7;
+                            @include font($font-family-one, 1.8rem, 600);
+                        }
+
+                    }
+
+                    .text-3 {
+
+                        @include mobile {
+
+                            @include font($font-family-one, 2.5rem, 600);
+                        }
+
+                    }
+
+                    .text-5 {
                         @include font($font-family-one, 3.2rem, 600);
                         padding-left: 6rem;
                         opacity: 0.7;
