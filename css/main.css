@@ -272,7 +272,7 @@ html {
   left: 20px;
   width: 51px;
   height: 51px;
-  transform: rotate(94deg);
+  transform: rotate(27deg);
 }
 .animation-div .blubb-1:after {
   position: absolute;
@@ -293,7 +293,7 @@ html {
   left: 20px;
   width: 52px;
   height: 52px;
-  transform: rotate(35deg);
+  transform: rotate(245deg);
 }
 .animation-div .blubb-2:after {
   position: absolute;
@@ -314,7 +314,7 @@ html {
   left: 20px;
   width: 53px;
   height: 53px;
-  transform: rotate(39deg);
+  transform: rotate(217deg);
 }
 .animation-div .blubb-3:after {
   position: absolute;
@@ -335,7 +335,7 @@ html {
   left: 20px;
   width: 54px;
   height: 54px;
-  transform: rotate(58deg);
+  transform: rotate(141deg);
 }
 .animation-div .blubb-4:after {
   position: absolute;
@@ -356,7 +356,7 @@ html {
   left: 20px;
   width: 55px;
   height: 55px;
-  transform: rotate(62deg);
+  transform: rotate(162deg);
 }
 .animation-div .blubb-5:after {
   position: absolute;
@@ -377,7 +377,7 @@ html {
   left: 20px;
   width: 56px;
   height: 56px;
-  transform: rotate(43deg);
+  transform: rotate(171deg);
 }
 .animation-div .blubb-6:after {
   position: absolute;
@@ -398,7 +398,7 @@ html {
   left: 20px;
   width: 57px;
   height: 57px;
-  transform: rotate(108deg);
+  transform: rotate(277deg);
 }
 .animation-div .blubb-7:after {
   position: absolute;
@@ -419,7 +419,7 @@ html {
   left: 20px;
   width: 58px;
   height: 58px;
-  transform: rotate(234deg);
+  transform: rotate(118deg);
 }
 .animation-div .blubb-8:after {
   position: absolute;
@@ -440,7 +440,7 @@ html {
   left: 38px;
   width: 8px;
   height: 8px;
-  transform: rotate(180deg);
+  transform: rotate(239deg);
 }
 .animation-div .sparkle-1:after {
   position: absolute;
@@ -461,7 +461,7 @@ html {
   left: 38px;
   width: 9px;
   height: 9px;
-  transform: rotate(237deg);
+  transform: rotate(261deg);
 }
 .animation-div .sparkle-2:after {
   position: absolute;
@@ -482,7 +482,7 @@ html {
   left: 38px;
   width: 10px;
   height: 10px;
-  transform: rotate(232deg);
+  transform: rotate(265deg);
 }
 .animation-div .sparkle-3:after {
   position: absolute;
@@ -503,7 +503,7 @@ html {
   left: 38px;
   width: 11px;
   height: 11px;
-  transform: rotate(279deg);
+  transform: rotate(85deg);
 }
 .animation-div .sparkle-4:after {
   position: absolute;
@@ -524,7 +524,7 @@ html {
   left: 38px;
   width: 12px;
   height: 12px;
-  transform: rotate(27deg);
+  transform: rotate(156deg);
 }
 .animation-div .sparkle-5:after {
   position: absolute;
@@ -545,7 +545,7 @@ html {
   left: 38px;
   width: 13px;
   height: 13px;
-  transform: rotate(282deg);
+  transform: rotate(279deg);
 }
 .animation-div .sparkle-6:after {
   position: absolute;
@@ -566,7 +566,7 @@ html {
   left: 38px;
   width: 14px;
   height: 14px;
-  transform: rotate(38deg);
+  transform: rotate(135deg);
 }
 .animation-div .sparkle-7:after {
   position: absolute;
@@ -587,7 +587,7 @@ html {
   left: 38px;
   width: 15px;
   height: 15px;
-  transform: rotate(125deg);
+  transform: rotate(166deg);
 }
 .animation-div .sparkle-8:after {
   position: absolute;
@@ -608,7 +608,7 @@ html {
   left: 38px;
   width: 16px;
   height: 16px;
-  transform: rotate(84deg);
+  transform: rotate(260deg);
 }
 .animation-div .sparkle-9:after {
   position: absolute;
@@ -629,7 +629,7 @@ html {
   left: 38px;
   width: 17px;
   height: 17px;
-  transform: rotate(152deg);
+  transform: rotate(200deg);
 }
 .animation-div .sparkle-10:after {
   position: absolute;
@@ -650,7 +650,7 @@ html {
   left: 38px;
   width: 18px;
   height: 18px;
-  transform: rotate(110deg);
+  transform: rotate(142deg);
 }
 .animation-div .sparkle-11:after {
   position: absolute;
@@ -671,7 +671,7 @@ html {
   left: 38px;
   width: 19px;
   height: 19px;
-  transform: rotate(199deg);
+  transform: rotate(60deg);
 }
 .animation-div .sparkle-12:after {
   position: absolute;
@@ -692,7 +692,7 @@ html {
   left: 38px;
   width: 20px;
   height: 20px;
-  transform: rotate(75deg);
+  transform: rotate(284deg);
 }
 .animation-div .sparkle-13:after {
   position: absolute;
@@ -713,7 +713,7 @@ html {
   left: 38px;
   width: 21px;
   height: 21px;
-  transform: rotate(95deg);
+  transform: rotate(177deg);
 }
 .animation-div .sparkle-14:after {
   position: absolute;
@@ -734,7 +734,7 @@ html {
   left: 38px;
   width: 22px;
   height: 22px;
-  transform: rotate(183deg);
+  transform: rotate(285deg);
 }
 .animation-div .sparkle-15:after {
   position: absolute;
@@ -1129,6 +1129,11 @@ html {
     height: 100%;
   }
 }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .about-section-wrapper {
+    height: 100%;
+  }
+}
 
 .about-section-container {
   height: 100%;
@@ -1361,6 +1366,16 @@ html {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 480px) {
+  .contact-section-wrapper {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .contact-section-wrapper {
+    height: 100%;
+  }
+}
 
 .contact-section {
   padding: 3rem 0 1rem 0;
@@ -1502,6 +1517,11 @@ html {
   height: 100vh;
 }
 @media screen and (max-width: 480px) {
+  .skill-section-wrapper {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .skill-section-wrapper {
     height: 100%;
   }
