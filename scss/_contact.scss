@@ -5,13 +5,12 @@
 
 
 .contact-section-wrapper {
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
-    @include landscape{
-        height: 100%;
-        
-}
+scroll-margin-top:2rem ;
+margin: 4rem 0;
+
 }
 
 .contact-section-container {
@@ -24,8 +23,8 @@
 }
 
 .contact-section {
-    padding-left: 1.5rem;
     height: 100%;
+    padding: 7rem 2rem;
     border-radius: $border-radius;
     display: flex;
     flex-direction: column;
