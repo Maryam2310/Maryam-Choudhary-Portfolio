@@ -26,6 +26,15 @@
 
 
     }
+    @include tablet {
+        height: 350px;
+
+        &.active {
+            width: 350px;
+        }
+
+
+    }
 
 }
 
@@ -79,7 +88,7 @@
 
                     @include tablet {
 
-                        @include font($font-family-one, 2rem, 700);
+                        @include font($font-family-one, 1.8rem, 700);
 
 
                     }

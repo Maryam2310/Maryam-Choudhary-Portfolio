@@ -52,8 +52,7 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 4rem;
-
-
+       
         .project {
             width: 350px;
             height: 100%;
@@ -73,6 +72,7 @@
                 radial-gradient(at 5% 38%, hsla(341, 65%, 70%, 1) 0px, transparent 50%),
                 radial-gradient(at 46% 11%, hsla(196, 76%, 71%, 1) 0px, transparent 50%);
 
+              
             .project-image-div {
                 width: 90%;
                 padding-top: 1rem;
@@ -92,6 +92,7 @@
             }
 
 
+     
 
 
             .project-name {
@@ -109,6 +110,11 @@
                     @include font($font-family-one, 1.8rem, 600);
 
                 }
+                @include tablet {
+                    @include font($font-family-one, 2rem, 600);
+
+                }
+
 
             }
 
@@ -170,6 +176,10 @@
 
                             }
 
+                            @include tablet {
+                                @include font($font-family-one, 1.6rem, 600);
+            
+                            }
 
                             i {
                                 padding-right: .5rem;

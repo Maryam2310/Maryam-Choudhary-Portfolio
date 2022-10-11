@@ -96,6 +96,11 @@
 
             }
 
+            @include tablet {
+                @include font($font-family-one, 1.7rem, 600);
+
+            }
+
         }
 
     }
@@ -118,7 +123,7 @@
     }
 
     @include tablet {
-        @include font($font-family-one, 1.8rem, 600);
+        @include font($font-family-one, 1.3rem, 600);
         padding-top: 1rem;
     }
 

@@ -44,7 +44,7 @@ body {
     }
 
     @include tablet {
-        @include font($font-family-one, 2rem, 400);
+        @include font($font-family-one, 1.5rem, 400);
     }
 
     @include laptop {
@@ -74,7 +74,7 @@ body {
     }
 
     @include tablet {
-        @include font($font-family-one, 2.2rem, 600);
+        @include font($font-family-one, 1.7rem, 600);
 
     }
 
@@ -105,7 +105,7 @@ body {
 
     @include tablet {
 
-        @include font($font-family-one, 1.8rem, 400);
+        @include font($font-family-one, 1.5rem, 400);
 
 
     }

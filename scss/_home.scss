@@ -84,7 +84,7 @@
                         }
 
                         @include tablet {
-                            @include font($font-family-one, 4.8rem, 700);
+                            @include font($font-family-one, 3.2rem, 700);
                             padding-left: 0;
                             text-align: center;
                         }
