@@ -23,214 +23,258 @@ html {
   display: flex;
   align-items: center;
 }
-.home-container .hero-section {
+
+.hero-section {
   width: 100%;
-  height: 90%;
-  padding-top: 5rem;
-}
-.home-container .hero-section .center {
   height: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
-@media screen and (max-width: 480px) {
-  .home-container .hero-section .center {
-    justify-content: center;
-  }
+.hero-section .center {
+  display: flex;
+  justify-content: center;
+  height: 70%;
+  width: 90%;
 }
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .home-container .hero-section .center {
-    justify-content: center;
-  }
-}
-.home-container .hero-section .center .intro-text-div {
+.hero-section .center .intro-text-div {
   width: 60%;
-  height: 100%;
 }
 @media screen and (max-width: 480px) {
-  .home-container .hero-section .center .intro-text-div {
-    width: 90%;
-    height: 80%;
+  .hero-section .center .intro-text-div {
+    width: 100%;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .home-container .hero-section .center .intro-text-div {
+  .hero-section .center .intro-text-div {
     width: 100%;
-    height: 100%;
   }
 }
-.home-container .hero-section .center .intro-text-div .intro-text {
+.hero-section .center .intro-text {
+  position: relative;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  line-height: 1.4;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
+  padding: 0 10rem;
   color: #122620;
   background-color: #ff99d6;
   background-image: radial-gradient(at 73% 45%, hsl(309deg, 96%, 76%) 0px, transparent 50%), radial-gradient(at 59% 73%, hsl(250deg, 92%, 75%) 0px, transparent 50%), radial-gradient(at 54% 25%, hsl(272deg, 91%, 73%) 0px, transparent 50%), radial-gradient(at 64% 90%, hsl(288deg, 77%, 68%) 0px, transparent 50%), radial-gradient(at 40% 34%, hsl(29deg, 68%, 78%) 0px, transparent 50%), radial-gradient(at 98% 89%, hsl(119deg, 90%, 70%) 0px, transparent 50%), radial-gradient(at 4% 79%, hsl(125deg, 84%, 77%) 0px, transparent 50%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-transform: capitalize;
+  text-align: left;
 }
 @media screen and (max-width: 480px) {
-  .home-container .hero-section .center .intro-text-div .intro-text {
-    padding: 10rem 0;
+  .hero-section .center .intro-text {
     border-radius: 20px;
+    text-align: center;
+    line-height: 1.6;
+    padding: 0;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .home-container .hero-section .center .intro-text-div .intro-text {
+  .hero-section .center .intro-text {
+    text-align: center;
+    line-height: 1.6;
     border-radius: 20px;
   }
 }
-.home-container .hero-section .center .intro-text-div .intro-text .text-1,
-.home-container .hero-section .center .intro-text-div .intro-text .text-2,
-.home-container .hero-section .center .intro-text-div .intro-text .text-3,
-.home-container .hero-section .center .intro-text-div .intro-text .text-4 {
+.hero-section .center .intro-text .text-1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+}
+@media screen and (max-width: 480px) {
+  .hero-section .center .intro-text .text-1 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hero-section .center .intro-text .text-1 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .hero-section .center .intro-text .text-1 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+  }
+}
+.hero-section .center .intro-text .text-2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 600;
+  opacity: 0.7;
+}
+@media screen and (max-width: 480px) {
+  .hero-section .center .intro-text .text-2 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hero-section .center .intro-text .text-2 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .hero-section .center .intro-text .text-2 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+}
+.hero-section .center .intro-text .text-3 {
   font-family: "Noto Sans", sans-serif;
   font-size: 5.6rem;
   font-weight: 700;
-  padding-left: 5rem;
-  text-align: left;
-  text-transform: capitalize;
 }
 @media screen and (max-width: 480px) {
-  .home-container .hero-section .center .intro-text-div .intro-text .text-1,
-.home-container .hero-section .center .intro-text-div .intro-text .text-2,
-.home-container .hero-section .center .intro-text-div .intro-text .text-3,
-.home-container .hero-section .center .intro-text-div .intro-text .text-4 {
+  .hero-section .center .intro-text .text-3 {
     font-family: "Noto Sans", sans-serif;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     font-weight: 700;
-    padding-left: 0;
-    text-align: center;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .home-container .hero-section .center .intro-text-div .intro-text .text-1,
-.home-container .hero-section .center .intro-text-div .intro-text .text-2,
-.home-container .hero-section .center .intro-text-div .intro-text .text-3,
-.home-container .hero-section .center .intro-text-div .intro-text .text-4 {
+  .hero-section .center .intro-text .text-3 {
     font-family: "Noto Sans", sans-serif;
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-weight: 700;
-    padding-left: 0;
-    text-align: center;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .home-container .hero-section .center .intro-text-div .intro-text .text-1,
-.home-container .hero-section .center .intro-text-div .intro-text .text-2,
-.home-container .hero-section .center .intro-text-div .intro-text .text-3,
-.home-container .hero-section .center .intro-text-div .intro-text .text-4 {
+  .hero-section .center .intro-text .text-3 {
     font-family: "Noto Sans", sans-serif;
-    font-size: 4.8rem;
+    font-size: 4.5rem;
     font-weight: 700;
-    padding-left: 0;
-    text-align: center;
   }
 }
+.hero-section .center .intro-text .text-4 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 3.7rem;
+  font-weight: 600;
+  opacity: 0.8;
+  padding-top: 0.5rem;
+}
 @media screen and (max-width: 480px) {
-  .home-container .hero-section .center .intro-text-div .intro-text .text-2 {
-    opacity: 0.7;
+  .hero-section .center .intro-text .text-4 {
     font-family: "Noto Sans", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 700;
   }
 }
-@media screen and (max-width: 480px) {
-  .home-container .hero-section .center .intro-text-div .intro-text .text-3 {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hero-section .center .intro-text .text-4 {
     font-family: "Noto Sans", sans-serif;
     font-size: 2.5rem;
-    font-weight: 600;
-  }
-}
-.home-container .hero-section .center .intro-text-div .intro-text .text-5 {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 3.2rem;
-  font-weight: 600;
-  padding-left: 6rem;
-  opacity: 0.7;
-  text-align: left;
-  text-transform: capitalize;
-}
-@media screen and (max-width: 480px) {
-  .home-container .hero-section .center .intro-text-div .intro-text .text-5 {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 1.8rem;
     font-weight: 700;
-    padding-left: 0;
-    padding-top: 1rem;
-    text-align: center;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .home-container .hero-section .center .intro-text-div .intro-text .text-5 {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    padding-left: 0;
-    padding-top: 1rem;
-    text-align: center;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .home-container .hero-section .center .intro-text-div .intro-text .text-5 {
+  .hero-section .center .intro-text .text-4 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+.hero-section .center .intro-text .text-5 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  opacity: 0.5;
+}
+@media screen and (max-width: 480px) {
+  .hero-section .center .intro-text .text-5 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 1rem;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hero-section .center .intro-text .text-5 {
     font-family: "Noto Sans", sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    padding-left: 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .hero-section .center .intro-text .text-5 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
     padding-top: 1rem;
-    text-align: center;
   }
 }
-.home-container .home-page-profiles {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
+
+.home-page-profiles {
+  position: absolute;
+  left: 0;
+  background-color: #122620;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-@media screen and (min-width: 1025px) {
-  .home-container .home-page-profiles {
-    justify-content: flex-start;
-    padding-left: 16rem;
+@media screen and (max-width: 480px) {
+  .home-page-profiles {
+    bottom: 90px;
+    width: 100%;
+    display: flex;
+    border-radius: 0;
+    justify-content: center;
+    background-color: transparent;
   }
 }
-.home-container [class$=icon] {
+.home-page-profiles [class$=icon] {
   transition: all 0.5s ease-in-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 1rem;
 }
-.home-container [class$=icon]:hover {
+.home-page-profiles [class$=icon]:hover {
   scale: 1.3;
 }
-.home-container [class$=icon] a {
+.home-page-profiles [class$=icon] a {
   font-family: "Noto Sans", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
 }
-.home-container [class$=icon] a i {
-  color: #122620;
+.home-page-profiles [class$=icon] a i {
+  color: #F4EBD0;
 }
 @media screen and (max-width: 480px) {
-  .home-container [class$=icon] a {
+  .home-page-profiles [class$=icon] a i {
+    color: #122620;
+  }
+}
+@media screen and (max-width: 480px) {
+  .home-page-profiles [class$=icon] a {
     font-family: "Noto Sans", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
+    color: #122620;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .home-container [class$=icon] a {
+  .home-page-profiles [class$=icon] a {
     font-family: "Noto Sans", sans-serif;
     font-size: 2rem;
     font-weight: 700;
   }
 }
 
-/* Home Animation */
 .animation-div {
-  width: 40%;
   height: 100%;
+  width: 40%;
 }
 @media screen and (max-width: 480px) {
   .animation-div {
@@ -272,7 +316,7 @@ html {
   left: 20px;
   width: 51px;
   height: 51px;
-  transform: rotate(27deg);
+  transform: rotate(271deg);
 }
 .animation-div .blubb-1:after {
   position: absolute;
@@ -293,7 +337,7 @@ html {
   left: 20px;
   width: 52px;
   height: 52px;
-  transform: rotate(245deg);
+  transform: rotate(180deg);
 }
 .animation-div .blubb-2:after {
   position: absolute;
@@ -314,7 +358,7 @@ html {
   left: 20px;
   width: 53px;
   height: 53px;
-  transform: rotate(217deg);
+  transform: rotate(280deg);
 }
 .animation-div .blubb-3:after {
   position: absolute;
@@ -335,7 +379,7 @@ html {
   left: 20px;
   width: 54px;
   height: 54px;
-  transform: rotate(141deg);
+  transform: rotate(40deg);
 }
 .animation-div .blubb-4:after {
   position: absolute;
@@ -356,7 +400,7 @@ html {
   left: 20px;
   width: 55px;
   height: 55px;
-  transform: rotate(162deg);
+  transform: rotate(233deg);
 }
 .animation-div .blubb-5:after {
   position: absolute;
@@ -377,7 +421,7 @@ html {
   left: 20px;
   width: 56px;
   height: 56px;
-  transform: rotate(171deg);
+  transform: rotate(179deg);
 }
 .animation-div .blubb-6:after {
   position: absolute;
@@ -398,7 +442,7 @@ html {
   left: 20px;
   width: 57px;
   height: 57px;
-  transform: rotate(277deg);
+  transform: rotate(5deg);
 }
 .animation-div .blubb-7:after {
   position: absolute;
@@ -419,7 +463,7 @@ html {
   left: 20px;
   width: 58px;
   height: 58px;
-  transform: rotate(118deg);
+  transform: rotate(196deg);
 }
 .animation-div .blubb-8:after {
   position: absolute;
@@ -440,7 +484,7 @@ html {
   left: 38px;
   width: 8px;
   height: 8px;
-  transform: rotate(239deg);
+  transform: rotate(116deg);
 }
 .animation-div .sparkle-1:after {
   position: absolute;
@@ -461,7 +505,7 @@ html {
   left: 38px;
   width: 9px;
   height: 9px;
-  transform: rotate(261deg);
+  transform: rotate(64deg);
 }
 .animation-div .sparkle-2:after {
   position: absolute;
@@ -482,7 +526,7 @@ html {
   left: 38px;
   width: 10px;
   height: 10px;
-  transform: rotate(265deg);
+  transform: rotate(4deg);
 }
 .animation-div .sparkle-3:after {
   position: absolute;
@@ -503,7 +547,7 @@ html {
   left: 38px;
   width: 11px;
   height: 11px;
-  transform: rotate(85deg);
+  transform: rotate(154deg);
 }
 .animation-div .sparkle-4:after {
   position: absolute;
@@ -524,7 +568,7 @@ html {
   left: 38px;
   width: 12px;
   height: 12px;
-  transform: rotate(156deg);
+  transform: rotate(170deg);
 }
 .animation-div .sparkle-5:after {
   position: absolute;
@@ -545,7 +589,7 @@ html {
   left: 38px;
   width: 13px;
   height: 13px;
-  transform: rotate(279deg);
+  transform: rotate(140deg);
 }
 .animation-div .sparkle-6:after {
   position: absolute;
@@ -566,7 +610,7 @@ html {
   left: 38px;
   width: 14px;
   height: 14px;
-  transform: rotate(135deg);
+  transform: rotate(206deg);
 }
 .animation-div .sparkle-7:after {
   position: absolute;
@@ -587,7 +631,7 @@ html {
   left: 38px;
   width: 15px;
   height: 15px;
-  transform: rotate(166deg);
+  transform: rotate(21deg);
 }
 .animation-div .sparkle-8:after {
   position: absolute;
@@ -608,7 +652,7 @@ html {
   left: 38px;
   width: 16px;
   height: 16px;
-  transform: rotate(260deg);
+  transform: rotate(257deg);
 }
 .animation-div .sparkle-9:after {
   position: absolute;
@@ -629,7 +673,7 @@ html {
   left: 38px;
   width: 17px;
   height: 17px;
-  transform: rotate(200deg);
+  transform: rotate(50deg);
 }
 .animation-div .sparkle-10:after {
   position: absolute;
@@ -650,7 +694,7 @@ html {
   left: 38px;
   width: 18px;
   height: 18px;
-  transform: rotate(142deg);
+  transform: rotate(11deg);
 }
 .animation-div .sparkle-11:after {
   position: absolute;
@@ -671,7 +715,7 @@ html {
   left: 38px;
   width: 19px;
   height: 19px;
-  transform: rotate(60deg);
+  transform: rotate(235deg);
 }
 .animation-div .sparkle-12:after {
   position: absolute;
@@ -692,7 +736,7 @@ html {
   left: 38px;
   width: 20px;
   height: 20px;
-  transform: rotate(284deg);
+  transform: rotate(290deg);
 }
 .animation-div .sparkle-13:after {
   position: absolute;
@@ -713,7 +757,7 @@ html {
   left: 38px;
   width: 21px;
   height: 21px;
-  transform: rotate(177deg);
+  transform: rotate(88deg);
 }
 .animation-div .sparkle-14:after {
   position: absolute;
@@ -734,7 +778,7 @@ html {
   left: 38px;
   width: 22px;
   height: 22px;
-  transform: rotate(285deg);
+  transform: rotate(124deg);
 }
 .animation-div .sparkle-15:after {
   position: absolute;
@@ -1121,30 +1165,29 @@ html {
 }
 
 .about-section-wrapper {
-  width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 @media screen and (max-width: 480px) {
   .about-section-wrapper {
-    height: 100%;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .about-section-wrapper {
+    scroll-margin-top: 2rem;
     height: 100%;
   }
 }
 
 .about-section-container {
   height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .about-section {
-  height: 80%;
-  width: 100%;
-  padding: 4rem 0 2rem 0;
+  height: 70%;
+  width: 90%;
+  padding-left: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1155,18 +1198,16 @@ html {
 }
 @media screen and (max-width: 480px) {
   .about-section {
-    width: 90%;
-    margin: 0 auto;
-    padding: 4rem 0 2rem 0;
+    padding: 2rem 1.5rem;
   }
 }
 
 .about-text {
-  padding: 2rem 1rem 3rem 1.4rem;
+  padding-top: 3rem;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (max-width: 480px) {
   .about-text {
-    padding-left: 4rem;
+    padding-top: 1rem;
   }
 }
 
@@ -1186,31 +1227,28 @@ html {
 .project-section-wrapper {
   height: 100%;
   width: 100%;
+  scroll-margin-top: 2rem;
 }
 @media screen and (max-width: 480px) {
   .project-section-wrapper {
-    width: 90%;
-    margin: 0 auto;
+    margin-top: 2rem;
   }
 }
 
+.project-section-container {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .project-section {
-  padding: 2rem 1rem 1rem 1rem;
+  height: 100%;
+  width: 100%;
   border-radius: 20px;
-  background-color: #d5ff99;
+  padding: 1.5rem;
   background-color: #99d5ff;
   background-image: radial-gradient(at 28% 54%, hsl(221deg, 60%, 61%) 0px, transparent 50%), radial-gradient(at 78% 12%, hsl(196deg, 98%, 75%) 0px, transparent 50%), radial-gradient(at 87% 33%, hsl(232deg, 60%, 79%) 0px, transparent 50%), radial-gradient(at 92% 92%, hsl(94deg, 96%, 71%) 0px, transparent 50%), radial-gradient(at 38% 80%, hsl(164deg, 96%, 69%) 0px, transparent 50%), radial-gradient(at 15% 71%, hsl(224deg, 69%, 66%) 0px, transparent 50%), radial-gradient(at 40% 80%, hsl(303deg, 79%, 71%) 0px, transparent 50%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-@media screen and (max-width: 480px) {
-  .project-section {
-    margin: 4rem auto 0 auto;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .project-section {
-    margin: 4rem 0;
-  }
 }
 
 .projects-grid .projects {
@@ -1220,7 +1258,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 4rem;
+  gap: 3rem;
 }
 .projects-grid .projects .project {
   width: 350px;
@@ -1362,76 +1400,36 @@ html {
 
 .contact-section-wrapper {
   height: 100vh;
-  width: 100%;
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 480px) {
-  .contact-section-wrapper {
-    height: 100%;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .contact-section-wrapper {
-    height: 100%;
-  }
+
+.contact-section-container {
+  height: 90%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .contact-section {
-  padding: 3rem 0 1rem 0;
+  padding-left: 1.5rem;
+  height: 100%;
   border-radius: 20px;
-  background-color: #99ceff;
-  background-color: #99dfff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #99ddff;
   background-image: radial-gradient(at 63% 65%, hsl(80deg, 88%, 70%) 0px, transparent 50%), radial-gradient(at 95% 5%, hsl(188deg, 67%, 73%) 0px, transparent 50%), radial-gradient(at 58% 36%, hsl(350deg, 65%, 71%) 0px, transparent 50%), radial-gradient(at 28% 20%, hsl(251deg, 60%, 78%) 0px, transparent 50%), radial-gradient(at 86% 8%, hsl(99deg, 74%, 77%) 0px, transparent 50%), radial-gradient(at 50% 11%, hsl(301deg, 73%, 64%) 0px, transparent 50%), radial-gradient(at 57% 84%, hsl(280deg, 90%, 63%) 0px, transparent 50%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-@media screen and (max-width: 480px) {
-  .contact-section {
-    width: 90%;
-    margin: 4rem auto 0 auto;
-  }
-}
 
 .contact-text {
-  padding: 1rem 0 0 4rem;
-}
-@media screen and (max-width: 480px) {
-  .contact-text {
-    padding: 0 0 0 1.4rem;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .contact-text {
-    padding: 0 0 0 1.4rem;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .contact-text {
-    padding: 0 0 0 1.4rem;
-  }
+  margin-bottom: 1rem;
 }
 
-.contact-links {
-  padding-left: 5rem;
-}
-@media screen and (max-width: 480px) {
-  .contact-links {
-    padding-left: 1.4rem;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .contact-links {
-    padding-left: 1.4rem;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .contact-links {
-    padding-left: 1.4rem;
-  }
-}
 .contact-links .link-div {
-  margin: 1rem 0;
+  padding-top: 1rem;
 }
 .contact-links .link-div a {
   font-family: "Noto Sans", sans-serif;
@@ -1474,7 +1472,6 @@ html {
     font-family: "Noto Sans", sans-serif;
     font-size: 1rem;
     font-weight: 600;
-    padding-top: 1rem;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -1482,7 +1479,7 @@ html {
     font-family: "Noto Sans", sans-serif;
     font-size: 1.3rem;
     font-weight: 600;
-    padding-top: 1rem;
+    padding-top: 2rem;
   }
 }
 
@@ -1513,94 +1510,68 @@ html {
 }
 
 .skill-section-wrapper {
-  width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 @media screen and (max-width: 480px) {
   .skill-section-wrapper {
+    scroll-margin-top: 2rem;
     height: 100%;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .skill-section-wrapper {
-    height: 100%;
+    margin-top: 2rem;
   }
 }
 
 .skill-section-container {
   height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .skill-section {
-  width: 100%;
+  height: 70%;
+  width: 90%;
+  padding-left: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   border-radius: 20px;
-  padding: 4rem 0 2rem 0;
   background-color: #beff99;
   background-image: radial-gradient(at 66% 89%, hsl(339deg, 92%, 69%) 0px, transparent 50%), radial-gradient(at 93% 67%, hsl(161deg, 79%, 72%) 0px, transparent 50%), radial-gradient(at 16% 71%, hsl(111deg, 91%, 71%) 0px, transparent 50%), radial-gradient(at 59% 28%, hsl(96deg, 60%, 69%) 0px, transparent 50%), radial-gradient(at 45% 94%, hsl(195deg, 68%, 63%) 0px, transparent 50%), radial-gradient(at 34% 63%, hsl(103deg, 63%, 70%) 0px, transparent 50%), radial-gradient(at 58% 49%, hsl(94deg, 97%, 65%) 0px, transparent 50%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 @media screen and (max-width: 480px) {
   .skill-section {
-    width: 90%;
-    margin: 4rem auto 0 auto;
-    padding: 4rem 0 2rem 0;
+    padding: 2rem 1.5rem;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .skill-section {
-    padding: 2rem 0;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .skill-section {
-    padding: 2rem 0;
+    height: 90%;
   }
 }
 
 .skills-container {
-  height: 350px;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   gap: 4rem;
-  padding: 5rem 2rem;
+  margin-top: 4rem;
 }
 @media screen and (max-width: 480px) {
   .skills-container {
-    padding: 2rem 1rem 1rem 1rem;
-    gap: 1rem;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .skills-container {
-    height: 400px;
-    padding: 1rem;
     gap: 2rem;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .skills-container {
-    height: 400px;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .skills-container {
-    height: 100%;
+    margin-top: 1rem;
   }
 }
 .skills-container .skill-div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   text-align: center;
-  border-radius: 15px;
 }
 .skills-container .skill-div .icon-div i {
   font-size: 5rem;
@@ -1673,26 +1644,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.main-wrapper {
-  height: 100%;
-  padding: 0 6rem;
-}
-@media screen and (max-width: 480px) {
-  .main-wrapper {
-    padding: 0;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .main-wrapper {
-    padding: 0 3rem;
-  }
-}
-
 .section-heading {
   font-family: "Noto Sans", sans-serif;
   font-size: 2.8rem;
   font-weight: 700;
-  padding-left: 1.4rem;
   color: #122620;
   text-transform: capitalize;
   text-align: left;
@@ -1718,17 +1673,11 @@ body {
     font-weight: 400;
   }
 }
-@media screen and (min-width: 1025px) {
-  .section-heading {
-    padding-left: 4rem;
-  }
-}
 
 .heading-two {
   font-family: "Noto Sans", sans-serif;
   font-size: 3.2rem;
   font-weight: 600;
-  padding-left: 1.4rem;
   padding-top: 1rem;
   color: #122620;
   text-transform: capitalize;
@@ -1753,12 +1702,6 @@ body {
     font-family: "Noto Sans", sans-serif;
     font-size: 2.4rem;
     font-weight: 600;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .heading-two {
-    padding-left: 4rem;
-    padding-top: 1rem;
   }
 }
 

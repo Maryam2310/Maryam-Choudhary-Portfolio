@@ -7,6 +7,7 @@
 @import "skills";
 
 
+
 body {
     overflow-x: hidden;
     color: $color-text;
@@ -16,25 +17,11 @@ body {
 }
 
 
-.main-wrapper {
-    height: 100%;
-    padding: 0 6rem;
-
-    @include mobile {
-        padding: 0;
-    }
-
-    @include tablet {
-        padding: 0 3rem;
-    }
-}
-
 
 
 
 .section-heading {
     @include font($font-family-one, 2.8rem, 700);
-    padding-left: 1.4rem;
     color: $color-text;
     text-transform: capitalize;
     text-align: left;
@@ -51,18 +38,13 @@ body {
         @include font($font-family-one, 2.4rem, 400);
     }
 
-    @include desktop {
-        padding-left: 4rem;
 
-
-    }
 }
 
 
 
 .heading-two {
     @include font($font-family-one, 3.2rem, 600);
-    padding-left: 1.4rem;
     padding-top: 1rem;
     color: $color-text;
     text-transform: capitalize;
@@ -83,10 +65,6 @@ body {
 
     }
 
-    @include desktop {
-        padding-left: 4rem;
-        padding-top: 1rem;
-    }
 
 }
 
