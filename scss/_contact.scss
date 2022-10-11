@@ -8,6 +8,10 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    @include landscape{
+        height: 100%;
+        
+}
 }
 
 .contact-section-container {

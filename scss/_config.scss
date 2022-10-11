@@ -67,3 +67,11 @@ html {
     @content;
   }
 }
+
+
+@mixin landscape {
+  @media only screen and (orientation: landscape) {
+    @content;
+  }
+
+}
